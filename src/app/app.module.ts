@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { TripListComponent } from './trip-list/trip-list.component';
 import { TripInfoComponent } from './trip-info/trip-info.component';
 import { AddNewTripComponent } from './add-new-trip/add-new-trip.component';
+import { MaterialModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AddNewTripComponent } from './add-new-trip/add-new-trip.component';
     AddNewTripComponent
   ],
   imports: [
+    MaterialModule,
     BrowserModule,
     FormsModule,
     HttpModule,
