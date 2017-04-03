@@ -1,0 +1,10 @@
+<h1>Все поездки</h1>
+
+<ul *ngFor="let trip of trips">
+  <li>
+    <input  type="checkbox" [(ngModel)]="trip.isEnded">
+    <span (click)="selectTrip(trip.id)">{{trip.name}}</span>
+  </li>
+</ul>
+
+<button (click)="addNewTrip()">Добавить новую поездку</button>
