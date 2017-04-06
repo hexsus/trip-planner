@@ -1,9 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 
 body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #fafafa;
+}
+.full-width {
+  width: 100%;
 }
